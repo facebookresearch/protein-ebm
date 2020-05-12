@@ -17,7 +17,7 @@ For reproducibility, we listed the packages used for generating the results in t
 ### 1. Rotamer Library
 First, get the [Dunbrack rotamer library](http://dunbrack.fccc.edu/bbdep2010/) (935.0 MB), which is used for negative sampling.
 ```
-wget https://dl.fbaipublicfiles.com/protein-ebm/dunbrak_rotamer.tar.gz
+wget https://dl.fbaipublicfiles.com/protein-ebm/dunbrack_rotamer.tar.gz
 tar xvzf dunbrack_rotamer.tar.gz 
 ```
 If necessary, update `ROTAMER_LIBRARY_PATH` in `config.py` to point to the `original/` directory in the uncompressed `tar.gz` parent directory.
