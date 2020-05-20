@@ -569,8 +569,6 @@ def main_single(gpu, FLAGS):
             print("Didn't find keys in checkpoint'")
 
     if FLAGS.model == "transformer":
-        import pdb
-        pdb.set_trace()
         model = RotomerTransformerModel(FLAGS).train()
     elif FLAGS.model == "fc":
         model = RotomerFCModel(FLAGS).train()
