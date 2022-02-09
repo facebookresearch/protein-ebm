@@ -2,7 +2,7 @@ gemmi==0.2.7
 torch==1.2.0
 numpy==1.16.0
 tqdm==4.25.0
-tensorflow_gpu==2.5.1
+tensorflow_gpu==2.5.3
 # you may need to install this with the following command:
 # $ pip install torch-scatter==latest+${CUDA} -f https://pytorch-geometric.com/whl/torch-1.4.0.html
 # cu101 should be replaced with should be replaced by either cpu, cu92, cu100 or cu101 depending on your PyTorch installation.
