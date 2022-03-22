@@ -1,6 +1,6 @@
 gemmi==0.2.7
 torch==1.2.0
-numpy==1.16.0
+numpy==1.21.0
 tqdm==4.25.0
 tensorflow_gpu
 # you may need to install this with the following command:
